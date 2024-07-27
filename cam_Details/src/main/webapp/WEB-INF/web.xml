@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>camResult1</display-name>
+    <servlet-name>camResult1</servlet-name>
+    <servlet-class>camResult.camResult1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>camResult1</servlet-name>
+    <url-pattern>/camResult1</url-pattern>
+  </servlet-mapping>
 </web-app>
